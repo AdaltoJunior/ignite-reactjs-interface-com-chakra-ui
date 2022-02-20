@@ -5,6 +5,13 @@ import { Layout } from '../components/Layout';
 
 import { theme } from "../styles/theme";
 
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+
+import '../styles/slider.css';
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>

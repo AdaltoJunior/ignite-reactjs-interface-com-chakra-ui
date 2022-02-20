@@ -1,0 +1,20 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ffba08;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.25rem;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #999999;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffba08;
+}
