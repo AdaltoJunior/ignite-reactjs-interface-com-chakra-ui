@@ -2,9 +2,12 @@ import { Box, Image, Flex, Text } from "@chakra-ui/react";
 
 export const CityCard = () => {
   return (
-    <Box bg="light.white">
+    <Box bg="light.white" overflow="hidden">
       <Image
         src="/images/continent-city-example.jpg"
+        w="full"
+        h="170px"
+        objectFit="cover"
         alt="Londres"
         borderRadius="4px 4px 0 0"
       />
@@ -24,7 +27,7 @@ export const CityCard = () => {
           w="30px"
           h="30px"
           objectFit="cover"
-          borderRadius="100%"
+          borderRadius="50%"
           src="/images/flag-example.jpg"
           alt="Bandeira Reino Unido"
         />

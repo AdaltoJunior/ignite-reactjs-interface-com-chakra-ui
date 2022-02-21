@@ -10,12 +10,12 @@ type ContinentInfoProps = {
 export const ContinentInfo = ({ number, text, info }: ContinentInfoProps) => {
   return (
     <Flex direction="column">
-      <Text as="span" color="highlight" fontSize="1.5rem" fontWeight="bold" lineHeight="1.6875rem">
+      <Text as="span" color="highlight" fontSize={["1.5rem", null, "3rem"]} fontWeight="bold" lineHeight={["1.6875rem", null, "4.5rem"]}>
         {number}
       </Text>
 
       <Flex align="baseline" gap="5px">
-        <Text as="span" fontSize="1.125rem" whiteSpace="nowrap">
+        <Text as="span" fontSize={["1.125rem", null, "1.5rem"]} whiteSpace="nowrap" fontWeight={["normal", null, "bold"]}>
           {text}
         </Text>
 

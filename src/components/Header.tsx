@@ -12,7 +12,7 @@ export function Header() {
   const isHome = pathname === '/';
 
   return (
-    <Container as="header" maxWidth="container.xl" py={{ base: '15px', lg: '27px' }}>
+    <Container as="header" maxWidth="container.xl" py={["15px", null, "27px"]}>
       <Flex height="full" alignItems="center">
         {!isHome && (
           <NextLink href="/" passHref>
@@ -23,7 +23,7 @@ export function Header() {
         )}
 
         <NextLink href="/" passHref>
-          <Link mx="auto" display="flex" height={{ base: '36px', lg: 'unset' }}>
+          <Link mx="auto" display="flex" height={["36px", null, "unset"]}>
             <Image src={Logo} alt="Worldtrip" />
           </Link>
         </NextLink>

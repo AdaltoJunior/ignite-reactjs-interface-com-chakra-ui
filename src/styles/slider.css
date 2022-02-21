@@ -18,3 +18,15 @@
 .swiper-pagination-bullet-active {
   background: #ffba08;
 }
+
+@media (min-width: 768px) {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 2rem;
+  }
+
+  .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+  }
+}
