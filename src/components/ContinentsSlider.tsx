@@ -19,7 +19,7 @@ export const ContinentsSlider = () => {
   return (
     <Swiper className='slider' {...swiperConfig}>
       <SwiperSlide>
-        <Link href="/" passHref>
+        <Link href="/continent" passHref>
           <Box bg="linear-gradient(0deg, rgba(28, 20, 1, 0.35), rgba(28, 20, 1, 0.35)), url(/images/europe.jpg) center / cover" w="full" h="250px">
             <Flex h="full" direction="column" align="center" justify="center" textAlign="center" p="1rem" rowGap="0.75rem">
               <Text as="strong" color="light.text" fontSize="1.5rem" fontWeight="bold">
@@ -33,7 +33,7 @@ export const ContinentsSlider = () => {
         </Link>
       </SwiperSlide>
       <SwiperSlide>
-        <Link href="/" passHref>
+        <Link href="/continent" passHref>
           <Box bg="linear-gradient(0deg, rgba(28, 20, 1, 0.35), rgba(28, 20, 1, 0.35)), url(/images/europe.jpg) center / cover" w="full" h="250px">
             <Flex h="full" direction="column" align="center" justify="center" textAlign="center" p="1rem" rowGap="0.75rem">
               <Text as="strong" color="light.text" fontSize="1.5rem" fontWeight="bold">
